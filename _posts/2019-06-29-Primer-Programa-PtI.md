@@ -1,7 +1,7 @@
 ---
 title: "Primer Programa (Pt I)"
 date: 2019-06-29
-category: stm32f0cube
+category: toolchain
 tags: [stm32f0cube, primer programa]
 ---
 
