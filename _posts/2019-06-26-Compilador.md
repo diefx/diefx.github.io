@@ -11,7 +11,9 @@ Comencemos con la puesta a punto de nuestro entorno de trabajo y la primera herr
 $ sudo pacman -S arm-none-eabi-gcc arm-none-eabi-newlib
 ```
 
-Este compilador es la versión GCC para microcontroladores con soporte para los que poseen un Core **ARM** como el que trae nuestra herramienta ( _de echo es un Cortex-M0 pero eso lo veremo mas adelante_ ). Si observas estamos instalando dos paquetes, el primero es el propio compilador GCC, mientras que el segundo es librería estándar de C reducida a una versión para microcontroladores Newlib. Después de instalar comprobamos que todos este bien escribiendo en la terminal:
+Este compilador es la versión GCC para microcontroladores con soporte para los que poseen un Core **ARM** como el que trae nuestra herramienta ( _de echo es un Cortex-M0 pero eso lo veremo mas adelante_ ). Si observas estamos instalando dos paquetes, el primero es el propio compilador GCC, mientras que el segundo es librería estándar de C reducida a una versión para microcontroladores llamada **Newlib**. 
+
+Después de instalar comprobamos que todos este bien escribiendo en la terminal:
 
 ```bash
 $ arm-none-eabi-gcc -v
