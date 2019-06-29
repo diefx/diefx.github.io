@@ -98,10 +98,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : "UA-142997884-1"
+    anonymize_ip         : false # true, false (default)
 
 
 # Site Author
@@ -110,7 +110,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "The coolest engineer so far."
   location         : "Moon"
-  email            :
+  email            : "diefx1984@gmail.com"
   github           : "diefx"
   links:
     - label: "Email"
