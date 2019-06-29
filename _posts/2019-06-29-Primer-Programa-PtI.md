@@ -1,8 +1,8 @@
 ---
-title: "Primer Programa (Pt I)"
-date: 2019-06-29
-category: toolchain
-tags: [stm32f0cube, primer programa]
+title:      "Primer Programa (Pt I)"
+date:       2019-06-29
+categories: stm32f0cube
+tags:       [stm32f0cube, primer programa]
 ---
 
 Llego la hora de crear nuestro primer programa **hola mundo**, este programa lo realizaremos sin el uso de ninguna librería de apoyo, pero si necesitaremos un par de archivos ya definidos los cuales obtendremos de la librería oficial [**STM32F0Cube**][1] de ST. Descarga el archivo y descomprimelo en tu lugar favorito de la computadora =). **NOTA:** tendrás que registrarte en la pagina de **ST**
