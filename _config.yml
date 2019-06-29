@@ -111,6 +111,7 @@ author:
   bio              : "The coolest engineer so far."
   location         : "Moon"
   email            :
+  github           : "diefx"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
