@@ -9,22 +9,22 @@ $link-color: #61AFEF;
 $background-color: #282c34;
 $text-color: #5C6370;
 
-$base00: #282c34 !default;
-$base01: #e06c75 !default;
-$base02: #98c379 !default;
-$base03: #d19a66 !default;
-$base04: #61afef !default;
-$base05: #c678dd !default;
-$base06: #56b6c2 !default;
-$base07: #abb2bf !default;
-$base08: #5c6370 !default;
-$base09: #e06c75 !default;
-$base0a: #98c379 !default;
-$base0b: #d19a66 !default;
-$base0c: #61afef !default;
-$base0d: #c678dd !default;
-$base0e: #56b6c2 !default;
-$base0f: #ffffff !default;
+$base00: #3a3f4b;
+$base01: #353b45;
+$base02: #3e4451;
+$base03: #545862;
+$base04: #565c64;
+$base05: #abb2bf;
+$base06: #b6bdca;
+$base07: #c8ccd4;
+$base08: #e06c75;
+$base09: #d19a66;
+$base0A: #e5c07b;
+$base0B: #98c379;
+$base0C: #56b6c2;
+$base0D: #61afef;
+$base0E: #c678dd;
+$base0F: #be5046;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
