@@ -41,7 +41,7 @@ int main ( void )
     /* Configure GPIOA pin 5 as output */
     GPIOA_MODER |= (1 << (LED_PIN << 1));
     /* Configure GPIOA pin 5 in max speed */
-    GPIOA_OSPEDDR |= (3 << (LED_PIN << 1));
+    GPIOA_OSPEEDR |= (3 << (LED_PIN << 1));
 
     for(;;)
     {
@@ -87,7 +87,7 @@ typedef struct
     volatile unsigned long AFRL;
     volatile unsigned long AFRH;
     volatile unsigned long BRR;
-}GPIO_Typedef;
+}GPIOA_Typedef;
 ```
 
 Y para poder utilizarlo en nuestro código definimos nuestro puerto A con el nombre de **GPIOA** y a la dirección le realizamos un cast a puntero de esa estructura que definimos con nuestros registros.
