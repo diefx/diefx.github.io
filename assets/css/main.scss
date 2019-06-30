@@ -4,8 +4,27 @@
 
 @charset "utf-8";
 
-$link-color: red;
+// Overryding default settings to match my desktop color setup =)
+$link-color: #61AFEF;
 $background-color: #282c34;
+$text-color: #5C6370;
+
+$base00: #282c34 !default;
+$base01: #e06c75 !default;
+$base02: #98c379 !default;
+$base03: #d19a66 !default;
+$base04: #61afef !default;
+$base05: #c678dd !default;
+$base06: #56b6c2 !default;
+$base07: #abb2bf !default;
+$base08: #5c6370 !default;
+$base09: #e06c75 !default;
+$base0a: #98c379 !default;
+$base0b: #d19a66 !default;
+$base0c: #61afef !default;
+$base0d: #c678dd !default;
+$base0e: #56b6c2 !default;
+$base0f: #ffffff !default;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
